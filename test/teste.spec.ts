@@ -6,7 +6,7 @@ describe("Deve testar algo", () => {
   });
 
   it("Deve ser par", () => {
-    expect(isEven(11)).toBe(true);
+    expect(isEven(11)).toBe(false);
   });
 
   it("Deve ser par", () => {
@@ -14,6 +14,6 @@ describe("Deve testar algo", () => {
   });
 
   it("Deve ser par", () => {
-    expect(isEven(7)).toBe(true);
+    expect(isEven(7)).toBe(false);
   });
 });
